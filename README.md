@@ -1,1 +1,0 @@
-# gungramaa.github.io
