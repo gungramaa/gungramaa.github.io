@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-<meta name="author" content="width=device-width, initial-scale=1.0"
+<meta name="author" content="width=device-width, initial-scale=1.0, user-scalable=no"
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
@@ -56,6 +56,11 @@ h1 {
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+@media screen and (max-width: 480px) {
+  html, body {
+  min-width: 320px;
+  }
 }
 </style>
 </head>
